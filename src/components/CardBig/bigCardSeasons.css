@@ -1,0 +1,46 @@
+
+.seasons-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.single-season{
+  cursor: pointer;
+  margin: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.season-episodes-container{
+  width: 22vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 5000px;
+  transition: max-height 1.2s ease-in;
+}
+
+.single-episode{
+  margin: 2%;
+  padding: 1%;
+  background-color: rgb(37, 33, 33);
+  border-radius: 10px;
+}
+
+.single-episode > a > div{
+  padding-left: 2%;
+}
+
+.m100{
+  transition: none;
+  max-height: 0px;
+  font-size: 0;
+}
+
+@media (max-width:600px){
+  .season-episodes-container{
+    width: 80vw;
+  }
+}

@@ -1,0 +1,37 @@
+.card {
+    position: relative;
+    display : flex;
+    flex-direction: column;
+    height: 378px;
+    width: 224px;
+    margin: 5px 0 10px 0;
+}
+
+.card-image {
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+
+.card-text {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    box-shadow: 0 0 15px rgb(0 0 0 / 100%);
+}
+
+.card-position{
+    position: absolute;
+    padding: 1px 2px;
+    background-color: gold;
+    color: black;
+    font-size: x-small;
+    font-weight: 700;
+}

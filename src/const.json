@@ -1,0 +1,101 @@
+{
+	"url": "https://moviesdatabase.p.rapidapi.com",
+	"headers": {
+		"X-RapidAPI-Host": "moviesdatabase.p.rapidapi.com",
+		"X-RapidAPI-Key": ""
+	},
+	"navLinks":[
+		{"name":"Home", "to":"/", "role": "logo"},
+		{"name":"Movies", "to":"/lists/most_pop_movies", "role": "movies"},
+		{"name":"Series", "to":"/lists/most_pop_series", "role": "series"}
+	],
+	"genres":[
+		"Action",
+		"Drama",
+		"Horror", 
+		"Comedy", 
+		"Crime", 
+		"Adventure", 
+		"Fantasy", 
+		"Thriller", 
+		"Animation", 
+		"Sci-Fi", 
+		"Sport"
+	],
+	"types":[
+		"movie",
+		"musicVideo",
+		"podcastEpisode",
+		"podcastSeries",
+		"short",
+		"tvEpisode",
+		"tvMiniSeries",
+		"tvMovie",
+		"tvPilot",
+		"tvSeries",
+		"tvShort",
+		"tvSpecial",
+		"video",
+		"videoGame"
+	],
+	"lists":[
+		{
+			"title": "Most Popular Movies",
+		 	"list": "most_pop_movies"
+		},
+		{
+			"title": "Top Box Office",
+		 	"list": "top_boxoffice_200"
+		},
+		{
+			"title": "Top Rated Movies",
+		 	"list": "top_rated_250"
+		},
+		{
+			"title": "Top Rated Movies in English",
+			 "list": "top_rated_english_250",
+			 "mediumCard": true
+		},
+		{
+			"title": "Top Lowest Rated Movies",
+		 	"list": "top_rated_lowest_100"
+		},
+		{
+			"title": "Most Popular Series",
+		 	"list": "most_pop_series"
+		},
+		{
+			"title": "Top Rated Series",
+		 	"list": "top_rated_series_250"
+		}
+	],
+	"breakpoints1" : {
+		"670": {
+			"slidesPerView": 2
+		},
+	
+		"992":{
+			"slidesPerView": 3
+		},
+	
+		"1280": {
+			"slidesPerView": 4
+		},
+		"1600": {
+			"slidesPerView": 5
+		},
+		"1700": {
+			"slidesPerView": 6
+		}
+	},
+	"breakpoints2" : {
+	
+		"1245":{
+			"slidesPerView": 2
+		},
+	
+		"1700": {
+			"slidesPerView": 3
+		}
+	}
+}

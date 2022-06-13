@@ -1,0 +1,26 @@
+.filter {
+  padding-left: 0.7vh;
+}
+
+.filter > button {
+  cursor: pointer;
+  background-color: #0a0a0a;
+  transition: transform 0.2s ease-in;
+}
+
+.filter > button:hover{
+  transform: scale(1.1);
+}
+
+.btn-filter{
+  background-color: rgba(172, 255, 47, 0.479) !important;
+}
+
+@media (max-width:600px){
+  .filter {
+    margin-top: 5%;
+  }
+  .filter > button:hover{
+    transform: none;
+  }
+}

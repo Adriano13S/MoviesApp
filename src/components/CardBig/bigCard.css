@@ -1,0 +1,165 @@
+.bigCard {
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat !important;
+    background-blend-mode: multiply;
+    background-position: center right !important;
+    background-size: 50% 100% !important;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 5%);
+}
+
+.big-card-image {
+
+    width: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.big-card-text {
+    height: 100%;
+    width: 51vw;
+    min-width: 30vw;
+    padding: 0% 3% 0% 3%;
+    text-align: center;
+    color: whitesmoke;
+    background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 11%);
+}
+
+.big-card-text-container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 78%;
+    width: 75%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.big-card-text-container h5 span{
+    color: red;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.big-card-text-container img {
+    vertical-align: bottom;
+    width: 28px;
+    height: 28px;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.big-card-gen, .big-card-keywords{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.big-card-gen > span{
+    background-color: rgba(172, 255, 47, 0.479);
+    margin: 0.5%;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+
+.big-card-keywords > span{
+    background-color: #131212;
+    margin: 0.5%;
+    padding: 1%;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.big-card-details {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.big-card-plot{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    width: 70%;
+    padding-left: 1%;
+    font-size: 15px;
+}
+
+.big-card-plot > img{
+    width: 24px;
+    height: 24px;
+}
+
+.big-card-details > span{
+    color: red;
+}
+
+.big-card-cast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.home-big-container{
+    height: 85% !important;
+}
+
+.big-card-seasons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35%;
+    overflow-y: scroll;
+}
+
+.big-card-seasons::-webkit-scrollbar-track{
+    background-color: rgb(39, 35, 35);
+    border-radius: 5px;
+}
+
+@media (max-width:1245px) {
+    .big-card-text-container{
+        width: 90% !important;
+    }
+}
+
+@media (max-width:600px){
+    .bigCard{
+        background-size: 100% 90% !important;
+        background-position: bottom !important;
+    }
+
+    .big-card-text {
+        width: 97%;
+        margin: 0;
+        padding-right: 0;
+        background: rgba(0, 0, 0, 0.87);
+        overflow: auto;
+    }
+
+    .big-card-text-container{
+        width: 100%;
+    }
+
+    .big-card-text h2{
+        padding-top: 3vh;
+        margin-bottom: 3.5vh;
+    }
+
+    .big-card-cast{
+        display: none;
+    }
+}

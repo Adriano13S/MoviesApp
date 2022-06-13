@@ -1,0 +1,61 @@
+
+.cardVideo{
+  margin-top: 1.5vw;
+}
+
+.video{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  z-index: -1;
+}
+
+#videoFrame{
+  width: 100%;
+  height: 100vh;
+}
+
+
+.movie-btn, .trailer-btn, .back-btn{
+  border-radius: 2% !important;
+  border-style: none;
+  cursor: pointer;
+  border-width: 0px;
+  outline: none;
+}
+
+.movie-btn{
+  box-shadow: 0 0 2px #ff073a, 0 0 2px #ff073a, 0 0 2px #ff073a, 0 0 2px #ff073a;
+}
+.movie-btn:hover{
+  box-shadow: 0 0 5px #ff073a, 0 0 5px #ff073a, 0 0 5px #ff073a, 0 0 5px #ff073a;
+}
+
+.trailer-btn{
+  box-shadow: 0 0 2px greenyellow, 0 0 2px greenyellow, 0 0 2px greenyellow, 0 0 2px greenyellow;
+}
+
+.trailer-btn:hover{
+  box-shadow: 0 0 4px greenyellow, 0 0 4px greenyellow, 0 0 4px greenyellow, 0 0 4px greenyellow;
+}
+
+.back-btn{
+  box-shadow: 0 0 2px gold, 0 0 2px gold, 0 0 2px gold, 0 0 2px gold;
+}
+.back-btn:hover{
+  box-shadow: 0 0 5px gold, 0 0 5px gold, 0 0 5px gold, 0 0 5px gold;
+}
+
+
+
+@media (max-width:600px){
+
+  .video{
+    margin-top: 5%;
+    position: unset;
+    width: 96vw;
+    z-index: 1;
+  }
+
+}

@@ -1,0 +1,115 @@
+:root {
+  --swiper-theme-color: #ff0000;
+  --red: #ff0000;
+  --fg: #17181c;
+	--shade1: #77131380;
+	--shade2: #7c19198e;
+	--shade3: #6e040486;
+	--shade4: #83262681;
+	--dur1: 1s;
+	--dur2: 6s;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: black;
+  box-sizing: border-box;
+}
+
+*:focus-within {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.30vw;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 10px;
+}
+
+.w0 {
+  width: 0;
+}
+
+.h0 {
+  height: 0;
+}
+
+.red {
+  background: #ff0000 !important;
+}
+
+.green {
+  background: rgba(172, 255, 47, 0.479) !important;
+}
+
+/* MAIN */
+#main{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* CONTAINER */
+.container {
+  width: 99.7vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* BUTTON */
+.button{
+  margin: 0.5vw;
+  padding: 0.8vh;
+  border-radius: 10%;
+  background-color: black;
+  color: white ;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.full-all{
+  min-height: 62.5vh;
+}
+
+.full-search{
+  min-height: 57.5vh;
+}
+
+@media (max-width:600px){
+  .container {
+    overflow: hidden;
+  }
+}

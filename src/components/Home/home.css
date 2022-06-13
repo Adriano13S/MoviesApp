@@ -1,0 +1,27 @@
+.home-container{
+    margin-top: 89.5vh;
+}
+
+.home-container > .card-list {
+    margin-top: 5vh;
+}
+
+.sliderContainer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sliderContainer > .swiper{
+    height: 100vh;
+}
+
+.sliderContainer .swiper-slide{
+    transition-duration: 800ms !important;
+}
+
+.sliderContainer .swiper-pagination-bullet{
+    background: greenyellow !important;
+}
